@@ -11,7 +11,7 @@ export async function DownloadAlphaButton() {
     <Link href={dmgUrl} target="_blank">
       <Button className="flex rounded-none text-sm sm:text-base">
         <Icons.apple className="size-3 sm:size-4" />
-        <span className="font-medium text-sm">Download Alpha</span>
+        <span className="font-medium text-sm">Download on App Store</span>
       </Button>
     </Link>
   );

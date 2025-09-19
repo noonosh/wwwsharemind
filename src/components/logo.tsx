@@ -1,7 +1,7 @@
 export function Logo(props: React.HTMLAttributes<SVGElement>) {
   return (
     <svg
-      title="Ora-Browser-Logo"
+      title="Sharemind-Logo"
       width="78"
       height="78"
       viewBox="0 0 78 78"

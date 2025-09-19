@@ -9,20 +9,19 @@ interface SocialItem {
 
 export const PRESENTATION = {
   hero: {
-    title: "Less noise, more browsing.",
-    description:
-      "Open source browser built on WebKit, designed for macOS. Ora delivers a clean, native experience that's simple, powerful, and free of bloat.",
+    title: "Sharemind",
+    description: "An app that tells you what's happening around.",
   },
   urls: {
     github: "https://github.com/the-ora/browser",
     x: "https://x.com/orabrowser",
     discord: "https://discord.gg/aYFUFyxx",
     buymecoffee: "https://buymeacoffee.com/orabrowser",
-    website: "https://orabrowser.com",
+    website: "https://sharemind.app",
   },
   footer: {
     description:
-      "Ora is a browser that is built on webkit, designed for macOS. It delivers a clean, native experience that’s simple, powerful, and free of bloat.",
+      "Sharemind is an app that tells you what's happening around you.",
   },
 } as const;
 

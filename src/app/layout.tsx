@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Databuddy } from "@databuddy/sdk/react";
 import "./globals.css";
 
@@ -18,9 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ora Browser - The Open source Arc alternative for macOS",
-  description:
-    "Open source Arc alternative built on WebKit. Ora delivers a clean, native macOS experience with vertical tabs, ad blocking, and privacy-first browsing. MIT licensed and free forever.",
+  title: "Sharemind — An app that tells you what's happening around",
+  description: "Sharemind is an app that tells you what's happening around.",
   keywords: [
     "Ora Browser",
     "macOS browser",
@@ -62,11 +61,11 @@ export const metadata: Metadata = {
     "productivity browser alternative",
     "aesthetic browser alternative",
   ],
-  authors: [{ name: "The Ora Team" }],
-  creator: "The Ora Team",
-  publisher: "The Ora Team",
-  category: "Technology",
-  classification: "Web Browser Application",
+  authors: [{ name: "The Sharemind Team" }],
+  creator: "The Sharemind Team",
+  publisher: "The Sharemind Team",
+  category: "Social",
+  classification: "Social Networking Application",
   robots: {
     index: true,
     follow: true,
@@ -93,28 +92,26 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   openGraph: {
-    title: "Ora Browser - Fast, Secure, and Minimal Browser for macOS",
-    description:
-      "Built on WebKit, designed for macOS. Ora delivers a clean, native experience that's simple, powerful, and free of bloat.",
+    title: "Sharemind — An app that tells you what's happening around",
+    description: "Sharemind is an app that tells you what's happening around.",
     type: "website",
-    url: "https://orabrowser.com",
-    siteName: "Ora Browser",
+    url: "https://sharemind.app",
+    siteName: "Sharemind",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Ora Browser - Native macOS Browser built on WebKit",
+        alt: "Sharemind",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ora Browser - Fast, Secure, and Minimal Browser for macOS",
-    description:
-      "Built on WebKit, designed for macOS. Clean, native experience that's simple, powerful, and free of bloat.",
-    creator: "@orabrowser",
-    site: "@orabrowser",
+    title: "Sharemind — An app that tells you what's happening around",
+    description: "Sharemind is an app that tells you what's happening around.",
+    creator: "@sharemindapp",
+    site: "@sharemindapp",
     images: ["/opengraph-image.png"],
   },
   themeColor: [

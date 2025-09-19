@@ -35,7 +35,7 @@ export function Footer() {
         </div>
         <div className="border-t">
           <p className="py-4 text-center text-neutral-600 text-sm sm:text-left">
-            Copyright © 2025 Ora. All rights reserved.
+            Copyright © 2025 Sharemind. All rights reserved.
           </p>
         </div>
       </div>

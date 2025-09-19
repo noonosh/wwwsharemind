@@ -37,7 +37,7 @@ export function Header({ className }: HeaderProps) {
               className="flex items-center space-x-1.5 opacity-80 duration-150 hover:opacity-100 sm:space-x-2"
             >
               <Logo className="size-5 sm:size-6" />
-              <p className="font-semibold text-lg sm:text-xl">Ora</p>
+              <p className="font-semibold text-lg sm:text-xl">Sharemind</p>
             </Link>
           </div>
 
@@ -58,6 +58,12 @@ export function Header({ className }: HeaderProps) {
           </ul>*/}
 
           <div className="flex items-center gap-6 sm:gap-12">
+            <Link
+              href="/privacy"
+              className="text-sm text-foreground/60 duration-150 hover:text-foreground"
+            >
+              Privacy
+            </Link>
             {/*<div className={cn("flex items-center gap-3 sm:gap-6")}>
               {SOCIALITEMS.map((item) => (
                 <a
